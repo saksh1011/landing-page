@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-image: url("istockphoto-905049262-612x612.jpg");
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position:relative;
+    top: 0;
+    width: 100%;
+    padding: 30px,100px;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+.logo{
+    position: relative;
+    color: black;
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 110px;
+    margin-top: 50%;
+}
+.nav a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+    transition-property: bacground;
+    margin-top: 20px;
+}
+.nav a:not(:last-child){
+    margin-right: 30px;
+
+}
+.nav a:hover{
+    background-color: brown;
+}
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+h2{
+    color: brown;
+    font-size: 55px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+h3{
+    color: #000;
+    font-weight: 800;
+    font-size: 50px;
+}
+p{
+    font-size: 17px;
+    font-weight: 500;
+    color:black;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+.moreinfo{
+    margin-top: 20px;
+    color: #000;
+    background-color: brown;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing:2px ;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+    transition-property: background;
+}
+.moreinfo:hover{
+    background: rgb(197, 153, 153);
+}
+.socialmedia{
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-left: 100px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    transition-property: transfrom;
+}
+.socialmedia a{
+    position: relative;
+    color: #000;
+    font-size: 45px;
+}
+.socialmedia a:not(:last-child){
+    margin-right: 60px;
+}
+.socialmedia a:hover{
+    transform: scale(1.5);
+}
